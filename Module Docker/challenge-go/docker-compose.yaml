@@ -1,0 +1,10 @@
+version: '1'
+
+services:
+  docker_go: 
+    build: 
+      context: ./go-project
+    image: tiedt/docker_go
+    container_name: docker_go
+    ports:
+      - "8080:8080"
