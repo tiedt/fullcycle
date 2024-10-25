@@ -2,3 +2,5 @@ mysql/mysql
 node/node_modules/
 node/.npm/
 mysql/.sock
+node/app/.npm/
+node/app/node_modules/
